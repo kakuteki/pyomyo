@@ -60,6 +60,51 @@ An example showing how to use the live classifier built into pyomyo, see [Gettin
 Devs start here.  
 This file shows how to use the library and get Myo data in a seperate thread.
 
+### collect_data.py
+Collects EMG data from the Myo armband.
+
+### data_collector.py
+A utility for collecting and managing data.
+
+### demo_classifier.py
+Demonstrates the use of a classifier with Myo data.
+
+### emg_2detector_serial_Arduino.py
+Example for 2-channel EMG detection using Arduino serial communication.
+
+### emg_2detector.py
+Example for 2-channel EMG detection.
+
+### emg_4detector_serial_Arduino.py
+Example for 4-channel EMG detection using Arduino serial communication.
+
+### knn_classifier.py
+Implements a K-Nearest Neighbors (KNN) classifier for Myo data.
+
+### live_classifiers.py
+Demonstrates various live classifiers with Myo data.
+
+### lstm_gesture_classifier.py
+An example of using an LSTM model for gesture classification with Myo data.
+
+### make_dataset.py
+Utility to create datasets from collected Myo data.
+
+### myo_imu_examp.py
+Example demonstrating how to access and use IMU (Inertial Measurement Unit) data from the Myo armband.
+
+### plot_emgs.py
+Plots raw EMG data from the Myo armband.
+
+### poweroff.py
+Example to power off the Myo armband.
+
+### speedtest.py
+Measures the data acquisition speed from the Myo armband.
+
+### train_model.py
+Trains a machine learning model using Myo data.
+
 
 ## Myo Modes Explained
 To communicate with the Myo, I used [dzhu's myo-raw](https://github.com/dzhu/myo-raw).
